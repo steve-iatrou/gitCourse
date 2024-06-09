@@ -1,0 +1,17 @@
+
+# clone the git repo
+git clone https://github.com/steve-iatrou/gitCourse.git
+
+
+# get the links for push and fetch
+git remote -v
+origin	https://github.com/steve-iatrou/gitCourse.git (fetch)
+origin	https://github.com/steve-iatrou/gitCourse.git (push)
+
+# help
+git <command> -h
+
+#commit
+git add .
+
+git commit -m "Initial commit"
