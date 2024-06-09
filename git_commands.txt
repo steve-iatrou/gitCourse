@@ -11,7 +11,30 @@ origin	https://github.com/steve-iatrou/gitCourse.git (push)
 # help
 git <command> -h
 
-#commit
-git add .
 
+# was needed before commit
+git config --global user.email "siatrou@gmail.com"
+git config --global user.name "steve-iatrou"
+
+#commit
+# Adds all the files in a staging area. The '.' means all files
+git add .
+or
+git add <filename?
+
+# To remove a file fro the staging area
+git reset <filename>
+
+# to check status of staged and untracked files
+git status
+
+# Does the commit
 git commit -m "Initial commit"
+
+
+# see the log of commits
+git log
+
+# branching
+git branch
+
